@@ -253,7 +253,7 @@ def is_museum_open(museum_name, booking_date, booking_time):
                 holidays = [holiday.strip().lower() for holiday in holidays]
 
                 # Check if the museum is closed on the selected day
-                if day_of_week.lower() in holidays:
+                if any(day_of_week.lower() in holiday for holiday in holidays):
                     return False, f"Sorry, the museum is closed on {day_of_week}. Please select another date."
 
                 # Check if the museum observes public holidays
