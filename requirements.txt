@@ -4,7 +4,7 @@ awsebcli
 bleach==6.2.0
 blinker==1.9.0
 boto3
-botocore
+
 cement==2.10.14
 certifi==2025.1.31
 charset-normalizer==3.4.1
@@ -47,7 +47,6 @@ protobuf==6.30.1
 pymongo==4.11.3
 PyMySQL==1.1.1
 pyparsing==3.2.1
-pypiwin32==223
 python-dateutil==2.9.0.post0
 python-slugify==8.0.4
 pytz==2025.1
